@@ -47,6 +47,7 @@ class Avatar extends Component {
         work={avatarlistarray[i].work}
       />
     })
+    
     return (
       <div className="mainpage tc">
         <h1>{this.state.name}</h1>
